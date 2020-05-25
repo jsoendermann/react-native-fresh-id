@@ -1,0 +1,23 @@
+{
+    "name": "react-native-fresh-id",
+    "version": "0.0.1",
+    "main": "index.js",
+    "typings": "index.d.ts",
+    "scripts": {
+        "build": "tsc --pretty",
+        "prepare": "npm run build",
+        "test": "jest"
+    },
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "@types/jest": "^25.2.1",
+        "@types/node": "^13.13.4",
+        "jest": "^25.5.4",
+        "react-native-securerandom": "^1.0.0",
+        "ts-jest": "^25.4.0",
+        "typescript": "^3.8.3"
+    },
+    "peerDependencies": {
+        "react-native-securerandom": "^1.0.0"
+    }
+}
